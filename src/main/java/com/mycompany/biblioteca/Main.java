@@ -3,12 +3,12 @@ public class Main {
     public static void main(String[] args) {
 
         Libro libro1 = new Libro(
-                "harry potter",
-                "J. K. Rowling",
-                "9788478886128");
+                " cronicas lunares",
+                "Marissa Meyer",
+                "4847465514456");
 
         Usuario usuario1 = new Usuario(
-                "Antonio",
+                "Anabel",
                 1);
 
         usuario1.prestarLibro(libro1);
